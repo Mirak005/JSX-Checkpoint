@@ -26,12 +26,13 @@ export default function App() {
       </div>
       <div style={{ width: "300px", margin: "auto" }}>
         <iframe
-          style={{ width: "300px", height: "250px" }}
-          title="Mern"
-          src="https://www.youtube.com/embed/7CqJlxBYj-M"
+          width="300"
+          height="250"
+          src="https://www.youtube.com/embed/DLX62G4lc44"
           // a camelCase attribute frameBorder
           frameBorder="0"
-          allowFullscreen
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
         />
       </div>
     </div>
